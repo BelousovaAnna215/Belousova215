@@ -6,7 +6,7 @@
 typedef struct inode *list; 
 
 struct inode {
-	struct data *p; //указатель на структуру с данными
+	struct data *p;
 	list next;
 } inode;
 
